@@ -2,6 +2,7 @@ import React, { PropsWithChildren } from 'react'
 import { Icons } from './icons'
 import { Cog, Gift, Headphones, HelpCircle, Inbox, Menu, Mic, Phone, Pin, PlusCircle, Smile, Sticker, UserCircle, Video } from 'lucide-react'
 import Image from 'next/image'
+
 const MockDiscordUi = ({ children, ...props }: PropsWithChildren) => {
     return (
         <div className='flex min-h-[800px] w-full max-w-[1200px] bg-discord-background rounded-lg overflow-hidden shadow-xl'>

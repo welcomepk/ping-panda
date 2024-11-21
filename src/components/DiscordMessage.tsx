@@ -2,7 +2,7 @@ import { cn } from '@/utils';
 import { Clock } from 'lucide-react';
 import Image from 'next/image';
 
-interface DiscordMessageProps {
+export interface DiscordMessageProps {
     avatarSrc: string;
     avatarAlt: string;
     username: string;
